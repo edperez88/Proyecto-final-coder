@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+h2 {
+  padding: 5px;
+  background-color: rgba(255, 228, 196, 0.575);
+  text-align: center;
+}
+
+.container-logo {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-color: rgba(65, 105, 225, 0.325);
+}
+
+.container-logo h1 {
+  text-align: center;
+  background-color: coral;
+  border-radius: 5px;
+}
+
+.container-logo img {
+  height: 70%;
+  max-width: 150px;
+  border-radius: 100px;
+  padding: 10px;
+  background-color: rgba(182, 65, 225, 0.485);
+  animation: mov-fondo 10s ease-in-out 0s infinite normal none;
+}
+
+@keyframes mov-fondo {
+  1% {
+    background-color: rgba(233, 157, 230, 0.86);
+  }
+  25% {
+    background-color: rgba(255, 0, 238, 0.573);
+  }
+  50% {
+    background-color: rgba(131, 255, 245, 0.879);
+  }
+  75% {
+    background-color: rgba(56, 189, 226, 0.889);
+  }
+  100% {
+    background-color: #fd71ff;
+  }
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  display: inline;
+  padding: 3px 3px 3px 3px;
+  background-color: rgba(151, 216, 234, 0.897);
+  border-radius: 10px;
+  border-style: outset;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li li :hover {
+  box-shadow: 3px 3px 5px 3px;
+  border-radius: 5px;
+}
+
+.galeria-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria-1 img {
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 50px;
+  border: 3px solid #31dbb1;
+}
+
+.galeria-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria-2 img {
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  padding: 2px;
+  border-radius: 50px;
+  border: 3px solid #31dbb1;
+  margin: 10px;
+}
+
+.galeria-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria-3 img {
+  display: grid inline-block;
+  height: 300px;
+  width: 300px;
+  padding: 2px;
+  border-radius: 50px;
+  border: 3px solid #31dbb1;
+  margin: 10px;
+}
+
+.container-vid {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-image: url("images/reposeras-header-2.jpg");
+  background-color: rgba(65, 105, 225, 0.251);
+  background-size: cover;
+  padding: 10px 10px;
+}
+
+/*Formato principal de Pagina y Contenedores*/
+.container-info {
+  display: flex;
+  height: 400px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-info h3 {
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+  overflow: hidden;
+  justify-items: center;
+  text-align: center;
+  background-color: #8c93e5;
+}
+
+.container-info h3 p {
+  color: rgba(255, 0, 221, 0.816);
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.container-2 {
+  display: flex;
+  height: 400px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-2 a {
+  height: 300px;
+  width: 300px;
+  border: 3px solid rgba(0, 0, 0, 0.388);
+  overflow: hidden;
+  text-align: center;
+  background-color: #8c93e5;
+  font-size: 35px;
+}
+
+.container-footer {
+  display: grid;
+  text-align: center;
+  justify-self: center;
+  background-color: rgba(0, 238, 255, 0.651);
+}
+
+.container-map {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 600px;
+  width: 100%;
+  padding: 10px;
+}
+
+.container-map p {
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  color: white;
+  font-size: 25px;
+  font-style: verdana sans-serif;
+  padding-bottom: 10px;
+}
+
+.form-1 {
+  display: grid;
+  grid-template-rows: 1vh;
+  background-color: rgba(127, 255, 212, 0.525);
+  height: 600%;
+  width: 100%;
+  padding: 30px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.form-2 {
+  justify-content: center;
+  display: inline-block;
+  padding: 30px;
+}
+
+.form-2 h3 {
+  align-items: center;
+  font-size: 35px;
+  color: black solid;
+}
+
+.form-2 p {
+  align-items: center;
+  color: black solid;
+  font-size: 25px;
+  font-style: verdana sans-serif;
+  border-radius: 15px;
+}
+
+.form-2 h4 {
+  align-items: baseline;
+  font-size: 30px;
+  color: violet;
+}
+
+/*..::Responsive::..*/
+@media screen and (max-width: 915px) {
+  .galeria-1 {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .galeria-2 {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .galeria-3 {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container-1 nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .container-info {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .container-1 {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container-2 {
+    justify-content: space-around;
+    align-content: space-between;
+  }
+  .container-map h2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-map p {
+    flex-direction: column;
+    align-items: center;
+  }
+  h4 {
+    justify-items: center;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

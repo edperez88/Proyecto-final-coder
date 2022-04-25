@@ -1,0 +1,20 @@
+li{
+    list-style: none;
+    font-size: 16px;
+    display: inline;
+    padding: 3px 3px 3px 3px;
+    background-color: rgba(151, 216, 234, 0.897);
+    border-radius: 10px;
+    border-style: outset;
+    a
+    {
+        text-decoration: none;
+    }li :hover
+    {
+        box-shadow: 3px 3px 5px 3px;
+        border-radius: 5px;
+        
+    }
+
+}
+
